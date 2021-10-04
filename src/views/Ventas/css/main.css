@@ -1,0 +1,28 @@
+.movil-v{
+    display: flex;
+    flex-direction: column !important;
+}
+.xs-form{
+
+}
+.logo{
+    max-width: 150px;
+}
+
+.sm-box{
+    width: 90px !important;
+}
+
+.md-box{
+    width: 140px !important;
+}
+
+.lg-box{
+    width: 250px !important;
+}
+
+@media (max-width:430px) {
+    .xs-form{
+        flex-direction: column !important;
+    }   
+}
